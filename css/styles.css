@@ -1,0 +1,173 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-weight: 900;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #FFFFFF;
+  padding-bottom: 70px;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.new {
+  padding-left: 19px;
+  padding-right: 35px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.row{
+  padding-top: 15px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#features {
+  padding: 2% 4%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+.circle {
+  color: #ef8172;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.row-sec {
+  margin-bottom: -40px;
+}
+
+.circle:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-text {
+  padding: 5%;
+}
+
+.feature-sec-disc {
+  margin-top: -40px;
+}
+
+.Download {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  margin-top: 40px;
+  width: 50%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+
+.testimonials-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+.testimonial-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-aling {}
+
+.pricing-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.pricing-disc {
+  margin-bottom: 2.5rem;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 03%;
+  color: #fff;
+}
+
+.cta-btn {
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+.bottom-big-heading {
+  font-size: 3.5rem;
+}
+
+#footer {
+  padding: 5%;
+}
+
+.fa-icon {
+  margin: 0 20px 10px 20px;
+}
+
+@media (max-width:992px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .row {}
+
+  .feature-box {
+    padding: 0;
+  }
+}
